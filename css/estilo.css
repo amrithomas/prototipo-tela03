@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    width: 400px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.barra_superior {
+    width: 400px;
+    height: 4px;
+    background-color: #FFBB12;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.retangulo1 {
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+    top: 25px;
+    left: 356px;
+}
+
+.retangulo2 {
+    width: 16px;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+    top: 35px;
+    left: 336px;
+}
+
+.retangulo3 {
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    position: relative;
+    top: 45px;
+    left: 312px;
+}
+
+.quadrado {
+    width: 25px;
+    height: 25px;
+    background-color: #FFBB12;
+    border-radius: 5px;
+    left: -48px;
+    top: 38px;
+    position: relative;
+}
+
+
+h1 {
+    position: relative;
+    top: 10px;
+    left: 25px;
+    width: 190px;
+    height: 42px;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+}
+
+
+p { 
+    font-size: 16px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.fundo_form {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    width: 360px;
+    height: 640px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 2px 1px #FFBB12;
+}
+
+.nome {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.nome input {
+    width: 325px;
+    height: 35px;
+    border: 0;
+    box-shadow: 0px 0px 2px 2px #ccaa21;
+    border-width: thin;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input {
+    width: 325px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.email {
+    position: relative;
+    margin-top: 10px;
+    top: 15px;
+    left: 15px;
+}
+
+.senha {
+    position: relative;
+    margin-top: 10px;
+    top: 15px;
+    left: 15px;
+}
+
+.senha img {
+    width: 18px;
+    height: 18px;
+
+    position: absolute;
+    right: 33px;
+    top: 36px;
+    filter: opacity(0.4);
+}
+
+.cep {
+    position: relative;
+    margin-top: 10px;
+    top: 15.5px;
+    left: 15px; 
+}
+
+.cep input {
+    width: 150px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.numero {
+    position: relative;    
+    top: -50px;
+    left: 190px; 
+}
+
+.numero input {
+    width: 150px;
+    height: 35px;
+    border-width: thin;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.rua {
+    position: relative;
+    margin-top: 10px;
+   
+    top: -45px;
+    left: 15px;
+}
+
+.cidade {
+    position: relative;
+    margin-top: 10px;
+    top: -45px;
+    left: 15px;
+}
+
+#cidades {
+    width: 337px;
+    height: 40px;    
+    border-radius: 5px;
+    position: relative;
+    margin-top: 0.5px;
+    padding-left: 5px;
+
+}
+
+.footer {
+    position: relative;
+    margin-top: 10px;
+    top: -10px;
+    left: 15px; 
+    display: inline;
+}
+
+.footer input {
+    width: 21px;
+    height: 21px;
+    border-width: thin;
+}
+
+.footer p {
+    position: relative;
+    left: 34px;
+    bottom: 20px;
+}
+
+.cadastro {
+    position: relative;
+    margin-top: 10px;
+    top: -20px;
+    left: 15px; 
+
+    width: 165px;
+    height: 50px;
+    background-color: #FFBB12;
+    color: #764701;
+    border-radius: 5px;
+    border-width: thin;
+
+    font-size: 16px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 600;
+    margin-bottom: 10px;
+}
